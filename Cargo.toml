@@ -1,0 +1,8 @@
+[package]
+name = "bambulab-notify"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bambulab = { git = "https://github.com/gvallicrosa/bambulab.git" } # fork with A1 support
+tokio = {version ="1.50.0", features= ["full"]}
