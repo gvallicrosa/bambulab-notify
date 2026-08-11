@@ -5,4 +5,8 @@ edition = "2024"
 
 [dependencies]
 bambulab = { git = "https://github.com/gvallicrosa/bambulab.git" } # fork with A1 support
+dotenvy = "0.15.0"
+log = "0.4.29"
+reqwest = {version="0.13.2", features = ["blocking", "multipart"]}
+simple_logger = "5.2.0"
 tokio = {version ="1.50.0", features= ["full"]}
