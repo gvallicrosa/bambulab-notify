@@ -1,0 +1,14 @@
+[Unit]
+Description=BambuLab Notify Service
+After=network.target
+
+[Service]
+Type=simple
+User=guillem
+WorkingDirectory=/home/guillem
+ExecStart=/home/guillem/bambulab-notify
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
