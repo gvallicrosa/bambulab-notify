@@ -13,3 +13,12 @@ SERIAL="<bambula_serial_number>"
 TELEGRAM_USER="<telegram_user_id_to_send_messages>"
 TELEGRAM_BOT_TOKEN="<telegram_bot_token>"
 ```
+
+## Deploy
+
+```bash
+scp target/release/bambulab-notify xirivity:bambulab_notify/
+```
+
+Also needs the `.env` file.
+
