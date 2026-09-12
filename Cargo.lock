@@ -44,7 +44,7 @@ dependencies = [
 [[package]]
 name = "bambulab"
 version = "0.4.29"
-source = "git+https://github.com/gvallicrosa/bambulab.git#064a47d7b46b68dbff966e1761a383808eab0e0d"
+source = "git+https://github.com/gvallicrosa/bambulab.git#d36aa0b1b970b4d1a96e0fa397e871ace4a9b5d0"
 dependencies = [
  "futures",
  "nanoid",
